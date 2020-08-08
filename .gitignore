@@ -1,0 +1,5 @@
+# jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# dataset
+gtsrb-german-traffic-sign 
