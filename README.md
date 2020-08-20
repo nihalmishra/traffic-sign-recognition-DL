@@ -1,12 +1,18 @@
 # **Traffic Sign Recognition for Autonomous Vehicles using Deep Learning**
 
+## Tech Stack
+
+1. Anaconda Environment
+2. Python 3.7.7 64-bit
+3. Libraries -  Keras, TensorFlow, Scikit-Learn, Scikit-Image, OpenCV, Pandas, Numpy, Matplotlib, TKinter, PIL
+
 ## Introduction
 
 **Traffic Sign Recognition (TSR)** is a fundamental part of any autonomous driving system. Mobility of the near future relies on such a system for safe navigation amongst traffic comprising of humans and other autonomous vehicles.
 
 The primary objective of this project is to design and develop a robust and computationally lightweight model, to accurately classify traffic signs on the road. A sizeable portion of the prior works on this field have used conventional methods of computer vision and classification. This project, on the other hand, utilizes a **deep convolutional neural network (CNN)** to achieve high classification accuracy while being easy to deploy on automotive hardware. **TensorFlow and Keras** will form the underlying architecture of the classification model.
 
-The dataset used for this project is the **[German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)** available publicly on Kaggle. This dataset contains over 50,000 images and 43 classes. A further objective of this project is to demonstrate the use of enhanced image preprocessing and augmentation techniques to improve the classification accuracy of deep convolutional network model that is fit to be deployed in real-world scenarios.
+The dataset used for this project is the **[German Traffic Sign Recognition Benchmark (GTSRB)](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)** available publicly on Kaggle. **This dataset contains over 50,000 images and 43 classes.** A further objective of this project is to demonstrate the use of enhanced image preprocessing and augmentation techniques to improve the classification accuracy of deep convolutional network model that is fit to be deployed in real-world scenarios.
 
 A simple **Graphical User Interface (GUI)** has also been developed to demonstrate its performance. The model can correctly classify traffic sign images of varying quality in terms of resolution, lighting, and orientation. The final CNN model designed for this project can achieve **near-instantaneous results with 98% accuracy** on the test set.
 
