@@ -2,8 +2,8 @@
 
 ## Tech Stack
 
-1. Anaconda Environment
-2. Python 3.7.7 64-bit
+1. Anaconda Environment with Python 3.7.7 64-bit
+2. Jupyter Notebook
 3. Libraries -  Keras, TensorFlow, Scikit-Learn, Scikit-Image, OpenCV, Pandas, Numpy, Matplotlib, TKinter, PIL
 
 ## Introduction
