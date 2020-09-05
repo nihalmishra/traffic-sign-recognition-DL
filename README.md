@@ -6,6 +6,21 @@
 2. Jupyter Notebook
 3. Libraries -  Keras, TensorFlow, Scikit-Learn, Scikit-Image, OpenCV, Pandas, Numpy, Matplotlib, TKinter, PIL
 
+Table of Contents
+- [**Traffic Sign Recognition for Autonomous Vehicles using Deep Learning**](#traffic-sign-recognition-for-autonomous-vehicles-using-deep-learning)
+  - [Tech Stack](#tech-stack)
+  - [Introduction](#introduction)
+  - [Data Extraction](#data-extraction)
+  - [Data Summary and Visualization](#data-summary-and-visualization)
+  - [Image Preprocessing](#image-preprocessing)
+  - [Data Augmentation](#data-augmentation)
+  - [Model Architecture](#model-architecture)
+  - [Training and Testing](#training-and-testing)
+  - [Results and Evaluation](#results-and-evaluation)
+  - [Building a Graphical User Interface (GUI)](#building-a-graphical-user-interface-gui)
+  - [Summary and Conclusion](#summary-and-conclusion)
+  - [Future Scope](#future-scope)
+
 ## Introduction
 
 **Traffic Sign Recognition (TSR)** is a fundamental part of any autonomous driving system. Mobility of the near future relies on such a system for safe navigation amongst traffic comprising of humans and other autonomous vehicles.
@@ -47,7 +62,7 @@ Almost all images are of different sizes, so before I applied any image processi
 
 ![CLAHE](screenshots/clahe.jpg)
 
-## Image Augmentation
+## Data Augmentation
 
 Another thing to note is that most of the images have a good viewing angle, most of them have a head-on view of the sign, which is good for training but might not represent true real-life situations. Hence a little augmentation applied to the images might make the model more robust as the augmentations will help mimic real-life scenarios. I used the ImageDataGenerator module from TensorFlow library to define the augmentation.
 
